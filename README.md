@@ -1,1 +1,6 @@
-# Multimodal-Solar-Forecasting
+# SkyNet: A Deep Learning Architecture for Intra-hour Multimodal Solar Forecasting with Ground-based Sky Images
+
+The increasing penetration of photovoltaic systems introduces critical challenges to grid transient stability, primarily due to rapid power fluctuations induced by localized cloud dynamics. While intra-hour solar forecasting using ground-based sky images has emerged as a pivotal approach for mitigation strategy, it remains fundamentally constrained in addressing three crucial limitations: 1) low capability of detecting cloud dynamics for time-series forecasting, 2) probabilistic uncertainty quantification essential for risk-aware grid management, and 3) spatially resolved spatial forecasting critical for distributed energy resource coordination. We propose SkyNet, a unified multimodal deep learning framework that integrates time-series, probabilistic, and spatial forecasting within a single model. To capture local details and long-range dependencies while enabling efficient multimodal feature fusion, the Dilated Attention With Neighborhood module was proposed. Meanwhile, a unified loss function was designed to jointly train all tasks. Experimental results demonstrate that SkyNet delivers competitive or superior accuracy across horizons compared with the state-of-the-art benchmark models, offering an efficient and comprehensive forecasting solution for high-renewable power systems.
+
+## DOI: 
+https://doi.org/10.1016/j.renene.2025.124354
